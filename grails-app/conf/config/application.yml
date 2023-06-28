@@ -1,0 +1,20 @@
+---
+dataSource:
+  pooled: true
+  jmxExport: true
+  driverClassName: com.mysql.cj.jdbc.Driver
+  username: root
+  password: 'zakipoint'
+
+environments:
+  development:
+    dataSource:
+      dbCreate: update
+      url: 'jdbc:mysql://localhost/zemployee?useUnicode=yes&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC&jdbcCompliantTruncation=false'
+---
+grails:
+  guides:
+    cdnFolder: /Users/rupakshrestha/Desktop/temp/
+    cdnRootUrl: http://localhost:8080
+---
+
